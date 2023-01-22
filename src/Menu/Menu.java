@@ -24,6 +24,10 @@ public class Menu {
     public void menu(){
         
         System.out.println("BIENVENIDO");
+        System.out.println("Eliga una opcion");
+        System.out.println("1 - Agregar libro");
+        System.out.println("2 - Editar libro");
+        System.out.println("3 - Eliminar libro");
         
     }
     
