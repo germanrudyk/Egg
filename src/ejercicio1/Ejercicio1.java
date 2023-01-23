@@ -8,6 +8,7 @@ numero de páginas.
 package ejercicio1;
 
 import Entidades.Libro;
+import Menu.Menu;
 import Servicios.LibroService;
 
 /**
@@ -21,13 +22,9 @@ public class Ejercicio1 {
      */
     public static void main(String[] args) {
         
-        Libro l1 = new Libro();
+        Menu menu = new Menu();
         
-        LibroService ls = new LibroService();
-        
-        ls.llenadoLibro(l1);
-        
-        ls.mostrarInfo(l1);
+        menu.menu();
     }
     
 }
