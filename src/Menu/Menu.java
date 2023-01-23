@@ -6,7 +6,6 @@
 package Menu;
 
 import Servicios.LibroService;
-import java.util.Scanner;
 
 /**
  *
@@ -14,15 +13,14 @@ import java.util.Scanner;
  */
 public class Menu {
 
-    Scanner leer = new Scanner(System.in).useDelimiter("\n");
-
     private final LibroService ls;
-
+    
     public Menu() {
-
+        
         this.ls = new LibroService();
-
+        
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
     public void menu() {
@@ -43,12 +41,24 @@ public class Menu {
         System.out.println("Adios");
 
 =======
+=======
+>>>>>>> parent of f7e10ad (Quinto commit)
     
     public void menu(){
         
         System.out.println("BIENVENIDO");
+<<<<<<< HEAD
         
 >>>>>>> parent of 3805eab (Cuarto Commit)
+=======
+        System.out.println("Eliga una opcion");
+        System.out.println("1 - Agregar libro");
+        System.out.println("2 - Editar libro");
+        System.out.println("3 - Eliminar libro");
+        
+>>>>>>> parent of f7e10ad (Quinto commit)
     }
-
+    
+    
+    
 }

@@ -17,15 +17,12 @@ public class Libro {
     private String titulo;
     private String autor;
     private int numPaginas;
-    private boolean alta;
-    private int ejemplares;
 
-    public Libro(int _isbn, String titulo, String autor, int numPaginas, boolean alta, int ejemplares) {
+    public Libro(int _isbn, String titulo, String autor, int numPaginas) {
         isbn = _isbn;
         this.titulo = titulo;
         this.autor = autor;
         this.numPaginas = numPaginas;
-        this.alta = true;
     }
     
     public Libro(){
@@ -66,7 +63,7 @@ public class Libro {
     }
 
     
-    
+
     
     
     
