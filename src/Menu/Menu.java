@@ -23,6 +23,7 @@ public class Menu {
         this.ls = new LibroService();
 
     }
+<<<<<<< HEAD
 
     public void menu() {
 
@@ -41,6 +42,13 @@ public class Menu {
 
         System.out.println("Adios");
 
+=======
+    
+    public void menu(){
+        
+        System.out.println("BIENVENIDO");
+        
+>>>>>>> parent of 3805eab (Cuarto Commit)
     }
 
 }
